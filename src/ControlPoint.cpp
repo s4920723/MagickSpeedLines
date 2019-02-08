@@ -3,7 +3,8 @@
 
 #include "ControlPoint.h"
 
-ControlPoint::ControlPoint(int x, int y)
+ControlPoint::ControlPoint(int _x, int _y)
 {
-
+    m_posX = _x;
+    m_posY = _y;
 }

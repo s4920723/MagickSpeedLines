@@ -13,8 +13,6 @@ private:
 
 public:
     ControlPoint(int _x, int _y);
-    void setX(int X);
-    void setY(int Y);
 };
 
 #endif //CONTROL_POINT_H
