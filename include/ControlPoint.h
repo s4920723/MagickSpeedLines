@@ -12,7 +12,7 @@ private:
     int m_frame;
 
 public:
-    ControlPoint(int _x, int _y);
+    ControlPoint(int _x, int _y, Magick::Color _velSample);
 };
 
 #endif //CONTROL_POINT_H

@@ -13,10 +13,11 @@ private:
     std::vector<std::unique_ptr<ControlPoint>> m_ControlPoints;
 
 public:
-    SpeedLine(int _firstX, int _firstY, Magick::Color _UVcol);
+    SpeedLine(int _firstX, int _firstY, Magick::Color _UVcol, Magick::Color _VELcol);
     Magick::Color getUV();
-    void addControlPoint(int _x, int _y);
+    void addControlPoint(int _x, int _y, Magick::Color _velSample);
     std::list<Magick::Coordinate> drawLine(int _lifetime, int _currentFrame);
 };
 
-#endif //SPEED_LINE_H
+#endif //SPEED_LINE_H:w
+
